@@ -14,8 +14,114 @@
   }
 }
 
+@font-face {
+  font-family: "Sherika";
+  src: url("/fonts/sherika/Upright/TTF/Sherika-Regular.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Sherika";
+  src: url("/fonts/sherika/Upright/TTF/Sherika-Bold.ttf");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Sherika";
+  src: url("/fonts/sherika/Upright/TTF/Sherika-Black.ttf");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Sherika";
+  src: url("/fonts/sherika/Upright/TTF/Sherika-ExtraBold.ttf");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Sherika";
+  src: url("/fonts/sherika/Upright/TTF/Sherika-Light.ttf");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Sherika";
+  src: url("/fonts/sherika/Upright/TTF/Sherika-Medium.ttf");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Sherika";
+  src: url("/fonts/sherika/Upright/TTF/Sherika-Thin.ttf");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Sherika";
+  src: url("/fonts/sherika/Italic/TTF/Sherika-Italic.ttf");
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Sherika";
+  src: url("/fonts/sherika/Italic/TTF/Sherika-BoldItalic.ttf");
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Sherika";
+  src: url("/fonts/sherika/Italic/TTF/Sherika-BlackItalic.ttf");
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Sherika";
+  src: url("/fonts/sherika/Italic/TTF/Sherika-ExtraBoldItalic.ttf");
+  font-weight: 800;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Sherika";
+  src: url("/fonts/sherika/Italic/TTF/Sherika-LightItalic.ttf");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Sherika";
+  src: url("/fonts/sherika/Italic/TTF/Sherika-MediumItalic.ttf");
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Sherika";
+  src: url("/fonts/sherika/Italic/TTF/Sherika-ThinItalic.ttf");
+  font-weight: 100;
+  font-style: italic;
+}
+
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Sherika, Arial, Helvetica, sans-serif;
+}
+
+.stoke-gradient-0 {
+  /* border: 1px solid; */
+  background-color: linear-gradient(to right, green, lightgreen);
+  /* border-image-slice: 1; */
+  border-radius: 100%;
+  padding: 1px;
 }
