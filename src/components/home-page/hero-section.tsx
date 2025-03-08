@@ -3,12 +3,12 @@
 const HeroSection = () => {
   return (
     <section className="relative hero-section flex flex-col justify-center items-center mt-[8rem] gap-8">
-      <div className="absolute z-1" style={{ top: "-10%" }}>
+      <div className="absolute z-1" style={{ top: "-5%" }}>
         <img
           src="/grid.svg"
           alt="Background Grid"
           className="object-cover"
-          style={{ width: "100vw", height: "1600px" }}
+          style={{ width: "100vw", height: "1400px" }}
         />
       </div>
       <div className="text-8xl font-extrabold tracking-tighter z-10">
@@ -58,7 +58,7 @@ const HeroSection = () => {
                     videoElement.pause();
                   }
                 },
-                { threshold: 0.8 }
+                { threshold: 0.6 }
               );
               observer.observe(videoElement);
             }

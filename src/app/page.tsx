@@ -1,11 +1,19 @@
-import { TopNav } from "@/components/home-page";
-import { HeroSection } from "@/components/home-page/hero-section";
+import {
+  HeroSection,
+  Services,
+  BrandsList,
+  TopNav,
+  Team,
+} from "@/components/home-page";
 
 export default function Home() {
   return (
     <>
       <TopNav />
       <HeroSection />
+      <BrandsList />
+      <Services />
+      <Team />
     </>
   );
 }
