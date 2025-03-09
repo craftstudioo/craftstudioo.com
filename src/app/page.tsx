@@ -7,6 +7,7 @@ import {
 } from "@/components/home-page";
 import { ContactUs } from "@/components/home-page/contact-us";
 import { FAQs } from "@/components/home-page/faqs";
+import { Footer } from "@/components/home-page/footer";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <Team />
       <ContactUs />
       <FAQs />
+      <Footer />
     </>
   );
 }
