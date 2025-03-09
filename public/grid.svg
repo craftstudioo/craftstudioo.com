@@ -1,6 +1,5 @@
 <svg width="1440" height="1352" viewBox="0 0 1440 1352" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g filter="url(#filter0_f_291_116)">
-<ellipse cx="719.5" cy="779.5" rx="586.5" ry="272.5" fill="#E67919" fill-opacity="0.2"/>
 </g>
 <path d="M448.785 281L-489 587.669" stroke="#B3B3B3" stroke-opacity="0.1"/>
 <path d="M484.879 281L-208.12 587.669" stroke="#B3B3B3" stroke-opacity="0.1"/>
@@ -62,11 +61,6 @@
 <rect x="291" y="202" width="856" height="155" fill="#0D0B0A"/>
 </g>
 <defs>
-<filter id="filter0_f_291_116" x="-167" y="207" width="1773" height="1145" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-<feFlood flood-opacity="0" result="BackgroundImageFix"/>
-<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
-<feGaussianBlur stdDeviation="150" result="effect1_foregroundBlur_291_116"/>
-</filter>
 <filter id="filter1_f_291_116" x="221.2" y="132.2" width="995.6" height="294.6" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
 <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>

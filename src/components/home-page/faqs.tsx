@@ -9,17 +9,27 @@ const faqs = [
   {
     question: "2. What industries have we worked with ?",
     answer:
-      "We have provided services to various clients from industries, like Ed Tech, SaaS, Personal Brands on Youtube and etc..",
+      "We have worked with businesses across various indutries, including youtube channels, startups, ed-tech platforms, real estate and other agencies",
   },
   {
-    question: "3. What makes us different from other agencies ?",
+    question: "4. How long does a project take to complete ?",
     answer:
-      "We, at Craft Studios call ourselves craftsmen. And we are excellent at our craft. Our quality reflects our brand as an  agency, and we believe in quality of work, rather than quantity.",
+      "Timelines vary depending on the project scope, A simple 30 second video reel may take 1-2 day(s), while a full brand identity or marketing strategy can take longer. We'll propvide an estimated timeline after discussing your requirements",
   },
   {
-    question: "4. How do I get started with Craft Studioo ?",
+    question: "5. Do you offer custom solutions ?",
     answer:
-      "Drop your email in our website, and we will contact you ( usually within 10 minutes )",
+      "Absolutely! Every project is tailored to meet your unique business needs and goals. We don't believe in one-size-fits-all solution",
+  },
+  {
+    question: "6. How much do your service cost ?",
+    answer:
+      "Pricing depends on the complexity of the project. COntact us for a free consultation, and we'll provide a customized quote",
+  },
+  {
+    question: "7. What makes Craft Studioo differetn from other agencies ?",
+    answer:
+      "At Craft Studioo, we don't just deliver services, we create experiences, Our approach blends creativity, strategy, and cutting-edge technology to craft tailor-made solutions that truly elevate brands. We focus on personalization, attention to detail, and results-driven execution to ensure your brand stands out in the digital space",
   },
 ];
 

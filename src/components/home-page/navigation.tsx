@@ -2,15 +2,16 @@ import Image from "next/image";
 
 const TopNav = () => {
   return (
-    <nav className="mx-12 my-16">
+    <nav className="mx-4 my-8 md:mx-12 md:my-16">
       <div className="flex justify-between items-center">
         <Image
           src="/carftstudioo-logo.svg"
           alt="Craft Studioo Logo"
-          width={60}
-          height={60}
+          width={40}
+          height={40}
+          className="sm:w-30 sm:h-30"
         />
-        <div>
+        <div className="hidden md:block">
           <div
             className="p-[0.5px] rounded-full"
             style={{ background: "linear-gradient(170deg, #888, #111)" }}
@@ -28,7 +29,7 @@ const TopNav = () => {
         </div>
         <button
           type="button"
-          className="border border-zinc-800 px-4 py-2 rounded-full font-medium"
+          className="border border-zinc-800 px-4 py-2 rounded-full font-medium hidden md:block"
         >
           Contact Us
         </button>
