@@ -12,13 +12,18 @@ const TopNav = () => {
         />
         <div>
           <div
-            className="flex border border-zinc-800 gap-16 px-16 py-6 rounded-full"
-            style={{ backgroundColor: "#111" }}
+            className="p-[0.5px] rounded-full"
+            style={{ background: "linear-gradient(170deg, #888, #111)" }}
           >
-            <a href="#">Home</a>
-            <a href="#">Work</a>
-            <a href="#">Service</a>
-            <a href="#">Team</a>
+            <div
+              className="flex border border-zinc-800 gap-16 px-16 py-6 rounded-full"
+              style={{ backgroundColor: "#111" }}
+            >
+              <a href="#">Home</a>
+              <a href="#">Work</a>
+              <a href="#">Service</a>
+              <a href="#">Team</a>
+            </div>
           </div>
         </div>
         <button

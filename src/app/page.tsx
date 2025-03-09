@@ -5,6 +5,7 @@ import {
   TopNav,
   Team,
 } from "@/components/home-page";
+import { ContactUs } from "@/components/home-page/contact-us";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <BrandsList />
       <Services />
       <Team />
+      <ContactUs />
     </>
   );
 }
