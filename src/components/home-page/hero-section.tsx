@@ -47,7 +47,7 @@ const HeroSection = () => {
 
       <div className="mt-8 z-10 w-[80%] h-full overflow-hidden rounded-lg border border-zinc-800">
         <video
-          src="/hero_intro.mp4"
+          src="https://storage.googleapis.com/craftstudioo/hero_intro.mp4"
           loop
           muted
           className="object-cover w-full h-full"
