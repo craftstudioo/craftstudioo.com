@@ -10,7 +10,7 @@ const Footer = () => {
             alt="Craft Studioo Logo"
             width={80}
             height={80}
-            className="w-20 h-20 sm:w-24 sm:h-24"
+            className="hidden sm:hidden md:block w-20 h-20 sm:w-24 sm:h-24"
           />
           <div className="flex flex-col items-center sm:items-start justify-center">
             <div className="text-2xl sm:text-3xl md:text-4xl font-extrabold tracking-tighter z-10">
@@ -30,6 +30,7 @@ const Footer = () => {
           <a
             className="text-2xl sm:text-3xl md:text-4xl font-light underline p-1 underline-offset-8"
             style={{ textDecorationThickness: "0.5px" }}
+            href="#contact-us"
           >
             Get In Touch
           </a>

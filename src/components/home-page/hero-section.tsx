@@ -15,7 +15,10 @@ const ServiceTag = ({ serviceName }: { serviceName: string }) => {
 
 const HeroSection = () => {
   return (
-    <section className="relative hero-section flex flex-col justify-center items-center mt-20 gap-8">
+    <section
+      className="relative hero-section flex flex-col justify-center items-center mt-20 gap-8"
+      id="hero"
+    >
       <div className="absolute z-1" style={{ top: "-5%" }}>
         <img
           src="/grid.svg"
@@ -43,7 +46,15 @@ const HeroSection = () => {
           <ServiceTag serviceName="UI / UX" />
           <ServiceTag serviceName="Content Creation" />
         </div>
-        <button className="mt-4 bg-orange-500 text-white rounded-full px-6 py-2">
+        <button
+          className="mt-4 bg-orange-500 text-white rounded-full px-6 py-2"
+          onClick={() => {
+            const contactSection = document.getElementById("contact-us");
+            if (contactSection) {
+              contactSection.scrollIntoView({ behavior: "smooth" });
+            }
+          }}
+        >
           {"Let's Talk"}
         </button>
       </div>

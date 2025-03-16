@@ -27,7 +27,7 @@ const faqs = [
       "Pricing depends on the complexity of the project. COntact us for a free consultation, and we'll provide a customized quote",
   },
   {
-    question: "7. What makes Craft Studioo differetn from other agencies ?",
+    question: "7. What makes Craft Studioo different from other agencies ?",
     answer:
       "At Craft Studioo, we don't just deliver services, we create experiences, Our approach blends creativity, strategy, and cutting-edge technology to craft tailor-made solutions that truly elevate brands. We focus on personalization, attention to detail, and results-driven execution to ensure your brand stands out in the digital space",
   },
@@ -35,7 +35,10 @@ const faqs = [
 
 const FAQs = () => {
   return (
-    <section className="flex flex-col justify-center items-center mt-20 sm:mt-24 md:mt-28 lg:mt-32 xl:mt-36 gap-16 sm:gap-20 md:gap-24 lg:gap-28 xl:gap-32">
+    <section
+      className="flex flex-col justify-center items-center mt-20 sm:mt-24 md:mt-28 lg:mt-32 xl:mt-36 gap-16 sm:gap-20 md:gap-24 lg:gap-28 xl:gap-32"
+      id="faqs"
+    >
       <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-4xl xl:text-4xl font-medium flex gap-2">
         FAQs
         <span className="h-2 w-2 sm:h-3 sm:w-3 md:h-4 md:w-4 lg:h-5 lg:w-5 xl:h-6 xl:w-6 bg-orange-500 rounded-full inline-block"></span>

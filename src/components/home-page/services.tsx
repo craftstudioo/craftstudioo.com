@@ -13,7 +13,10 @@ const ServiceCard: React.FC<ServiceCardProps> = ({
   title,
 }) => {
   return (
-    <div className="bg-[#282828] shadow-md rounded-lg flex flex-col items-center h-60">
+    <div
+      className="bg-[#282828] shadow-md rounded-lg flex flex-col items-center h-60"
+      id="services"
+    >
       <img
         src={imageSrc}
         alt={altText}

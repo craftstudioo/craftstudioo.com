@@ -7,6 +7,7 @@ const ContactUs = () => {
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
+      id="contact-us"
     >
       <h2 className="text-2xl sm:text-3xl md:text-4xl font-medium text-center">
         {"Let's turn ideas into impact, Partner with us and make it happen! "}
