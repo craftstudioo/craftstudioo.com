@@ -10,18 +10,18 @@ const BrandsList = () => {
   ];
 
   return (
-    <section className="flex flex-col justify-center items-center mt-40 gap-32 mb-20">
-      <h1 className="text-4xl font-bold flex gap-2">
+    <section className="flex flex-col justify-center items-center mt-20 gap-16 mb-10 sm:mt-24 sm:gap-20 sm:mb-12 md:mt-28 md:gap-24 md:mb-16 lg:mt-32 lg:gap-28 lg:mb-20 xl:mt-36 xl:gap-32 xl:mb-24">
+      <h1 className="text-xl sm:text-2xl md:text-4xl lg:text-4xl xl:text-4xl font-bold flex gap-2">
         Brands we have worked with
-        <span className="h-3 w-3 bg-orange-500 rounded-full inline-block"></span>
+        <span className="h-2 w-2 sm:h-3 sm:w-3 md:h-4 md:w-4 lg:h-5 lg:w-5 xl:h-6 xl:w-6 bg-orange-500 rounded-full inline-block"></span>
       </h1>
-      <div className="flex gap-4 sm:gap-8 md:gap-16 lg:gap-24 xl:gap-36">
+      <div className="flex flex-wrap gap-12 sm:gap-14 md:gap-16 lg:gap-18 xl:gap-20 justify-center">
         {brandLogos.map((logo, index) => (
           <img
             key={index}
             src={`/brands/${logo}`}
             alt={`Brand ${index + 1}`}
-            className="h-4 sm:h-6 md:h-8 lg:h-8 xl:h-8"
+            className="h-6 sm:h-10 md:h-12 lg:h-12 xl:h-12"
           />
         ))}
       </div>

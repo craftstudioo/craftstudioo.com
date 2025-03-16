@@ -6,7 +6,7 @@ const ServiceTag = ({ serviceName }: { serviceName: string }) => {
       className="p-[0.25px] rounded-full"
       style={{ background: "linear-gradient(170deg, #888, #111)" }}
     >
-      <div className="bg-[#111] rounded-full px-2 py-1 text-sm md:px-4 md:py-2 md:text-base">
+      <div className="bg-[#111] rounded-full px-2 py-2 text-xs md:px-4 md:py-2 md:text-base sm:text-sm">
         {serviceName}
       </div>
     </div>
@@ -48,7 +48,7 @@ const HeroSection = () => {
         </button>
       </div>
 
-      <div className="mt-8 z-10 w-[80%] h-full overflow-hidden rounded-lg border border-zinc-800 shadow-[0_0_200px_1px_rgba(230,121,25,0.2)]">
+      <div className="mt-8 z-10 w-[90%] md:w-[80%] h-full overflow-hidden rounded-lg border border-zinc-800 shadow-[0_0_200px_1px_rgba(230,121,25,0.2)]">
         <video
           src="https://storage.googleapis.com/craftstudioo/hero_intro.mp4"
           loop

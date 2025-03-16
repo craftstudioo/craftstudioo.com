@@ -13,13 +13,13 @@ const ServiceCard: React.FC<ServiceCardProps> = ({
   title,
 }) => {
   return (
-    <div className="bg-[#282828] shadow-md rounded-lg aspect-square flex flex-col items-center">
+    <div className="bg-[#282828] shadow-md rounded-lg flex flex-col items-center h-60">
       <img
         src={imageSrc}
         alt={altText}
-        className="w-full h-4/5 object-cover rounded-t-lg"
+        className="w-full h-3/4 object-cover rounded-t-lg"
       />
-      <div className="flex flex-col items-center justify-center h-1/5">
+      <div className="flex flex-col items-center justify-center h-1/4">
         <h2 className="text-xl font-semibold">{title}</h2>
       </div>
     </div>
@@ -56,8 +56,8 @@ const Services = () => {
   ];
 
   return (
-    <section className="flex flex-col justify-center items-center mt-40 gap-32 mb-20">
-      <h1 className="text-4xl font-bold flex gap-2">
+    <section className="flex flex-col justify-center items-center mt-40 gap-16 sm:gap-20 md:gap-24 lg:gap-28 xl:gap-32 mb-20">
+      <h1 className="text-2xl sm:text-2xl md:text-4xl lg:text-4xl xl:text-4xl font-bold flex gap-2">
         Services
         <span className="h-3 w-3 bg-orange-500 rounded-full inline-block"></span>
       </h1>

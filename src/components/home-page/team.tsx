@@ -2,8 +2,8 @@ import React from "react";
 
 const Team = () => {
   return (
-    <section className="flex flex-col justify-center items-center mt-40 gap-32 mb-16">
-      <h1 className="text-4xl font-bold flex gap-2">
+    <section className="flex flex-col justify-center items-center mt-40 gap-16 sm:gap-20 md:gap-24 lg:gap-28 xl:gap-32 mb-16">
+      <h1 className="text-2xl sm:text-2xl md:text-4xl lg:text-4xl xl:text-4xl font-bold flex gap-2">
         Team
         <span className="h-3 w-3 bg-orange-500 rounded-full inline-block"></span>
       </h1>
