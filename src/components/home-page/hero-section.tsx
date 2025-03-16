@@ -30,7 +30,7 @@ const HeroSection = () => {
       </div>
       <div className="text-4xl sm:text-6xl md:text-8xl font-extrabold tracking-tighter z-10">
         CRAFT STUDIOO
-        <span className="h-4 w-4 bg-[#E67919] rounded-full inline-block"></span>
+        <span className="h-2 w-2 md:h-4 md:w-4 bg-[#E67919] rounded-full inline-block"></span>
       </div>
       <div className="text-lg md:text-xl font-medium text-white z-10">
         More than Execution, We Scale Brands
