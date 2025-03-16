@@ -14,14 +14,16 @@ const ContactUs = () => {
       </h2>
 
       <div className="relative mt-4 w-full sm:w-[80vw] md:w-[60vw] lg:w-[50vw] xl:w-[40vw] flex flex-col">
-        <input
-          type="text"
-          placeholder="Enter your email address"
-          className="w-full py-2 sm:py-2 md:py-3 lg:py-4 xl:py-4 pl-4 pr-12 bg-transparent border border-zinc-600 rounded-full backdrop-blur-md focus:outline-none"
-        />
-        <button className="absolute top-0 right-0 h-full px-4 text-white bg-[#E67919] rounded-full">
-          Contact Us
-        </button>
+        <div className="flex items-center w-full bg-transparent border border-zinc-600 rounded-full backdrop-blur-md">
+          <input
+            type="text"
+            placeholder="Enter your email address"
+            className="w-4/5 py-2 sm:py-2 md:py-3 lg:py-4 xl:py-4 pl-4 bg-transparent focus:outline-none rounded-l-full"
+          />
+          <button className="w-32 mr-1 px-4 py-1 sm:py-1 md:py-2 lg:py-3 xl:py-3 text-white bg-[#E67919] rounded-full ml-auto">
+            Contact Us
+          </button>
+        </div>
       </div>
     </section>
   );
