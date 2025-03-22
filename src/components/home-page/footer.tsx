@@ -28,11 +28,21 @@ const Footer = () => {
             Want to work with us?
           </div>
           <a
-            className="text-2xl sm:text-3xl md:text-4xl font-light underline p-1 underline-offset-8"
+            className="text-2xl sm:text-3xl md:text-4xl font-light underline p-1 underline-offset-8 flex items-center"
             style={{ textDecorationThickness: "0.5px" }}
             href="#contact-us"
           >
             Get In Touch
+            <span className="ml-2">
+              <Image
+                src="/red_arrow.svg"
+                alt="Arrow Icon"
+                width={20}
+                height={24}
+                className="w-5 h-6"
+                style={{ transform: "rotate(41deg)" }}
+              />
+            </span>
           </a>
         </div>
       </div>
