@@ -29,18 +29,23 @@ const TopNav = () => {
             </div>
           </div>
         </div>
-        <button
-          type="button"
-          className="border border-zinc-800 px-4 py-2 rounded-full font-medium hidden md:block"
-          onClick={() => {
-            const contactSection = document.getElementById("contact-us");
-            if (contactSection) {
-              contactSection.scrollIntoView({ behavior: "smooth" });
-            }
-          }}
+        <div
+          className="p-[0.5px] rounded-full"
+          style={{ background: "linear-gradient(170deg, #aaa, #111)" }}
         >
-          Contact Us
-        </button>
+          <button
+            type="button"
+            className="border bg-[#0a0a0a] border-zinc-800 px-4 py-2 rounded-full font-medium hidden md:block"
+            onClick={() => {
+              const contactSection = document.getElementById("contact-us");
+              if (contactSection) {
+                contactSection.scrollIntoView({ behavior: "smooth" });
+              }
+            }}
+          >
+            Contact Us
+          </button>
+        </div>
       </div>
     </nav>
   );
