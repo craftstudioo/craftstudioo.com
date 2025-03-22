@@ -1,7 +1,7 @@
 const ContactUs = () => {
   return (
     <section
-      className="flex flex-col justify-center items-center mt-20 py-20 sm:py-30 md:py-40 lg:py-54 xl:py-60 px-4 sm:px-8 md:px-16 lg:px-32 xl:px-80 gap-10"
+      className="flex flex-col justify-center items-center mt-20 md:mt-28 lg:mt-32 xl:mt-36 py-20 sm:py-30 md:py-40 lg:py-54 xl:py-60 px-4 sm:px-8 md:px-16 lg:px-32 xl:px-80 gap-10"
       style={{
         backgroundImage: "url(/fractal_effect.png)",
         backgroundSize: "cover",

@@ -1,5 +1,7 @@
 "use client";
 
+import { Heading } from "../base";
+
 const faqs = [
   {
     question: "1. What services does Craft Studios offer ?",
@@ -36,20 +38,17 @@ const faqs = [
 const FAQs = () => {
   return (
     <section
-      className="flex flex-col justify-center items-center mt-20 sm:mt-24 md:mt-28 lg:mt-32 xl:mt-36 gap-16 sm:gap-20 md:gap-24 lg:gap-28 xl:gap-32"
+      className="flex flex-col justify-center items-center mt-20 md:mt-28 lg:mt-32 xl:mt-36 gap-16 sm:gap-20 md:gap-24 lg:gap-28 xl:gap-32"
       id="faqs"
     >
-      <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-4xl xl:text-4xl font-medium flex gap-2">
-        FAQs
-        <span className="h-2 w-2 sm:h-3 sm:w-3 md:h-4 md:w-4 lg:h-5 lg:w-5 xl:h-6 xl:w-6 bg-orange-500 rounded-full inline-block"></span>
-      </h1>
+      <Heading text="FAQs" />
       <div className="w-full sm:w-[90vw] md:w-[80vw] lg:w-[70vw] xl:w-[60vw]">
         {faqs.map((faq, index) => (
           <div
             key={index}
             className={`border-t-[0.5px] ${
               index === faqs.length - 1 ? "border-b-[0.5px]" : ""
-            } border-white bg-black py-4`}
+            } border-white py-4`}
           >
             <button
               className="w-full text-left text-white py-4 px-4 sm:px-6 md:px-8 lg:px-10 xl:px-12 focus:outline-none font-medium text-lg sm:text-xl md:text-2xl"

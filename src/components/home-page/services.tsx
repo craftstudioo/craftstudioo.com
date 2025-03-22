@@ -1,4 +1,5 @@
 import React from "react";
+import { Heading } from "../base";
 
 // Start of Selection
 interface ServiceCardProps {
@@ -59,11 +60,8 @@ const Services = () => {
   ];
 
   return (
-    <section className="flex flex-col justify-center items-center mt-40 gap-16 sm:gap-20 md:gap-24 lg:gap-28 xl:gap-32 mb-20">
-      <h1 className="text-2xl sm:text-2xl md:text-4xl lg:text-4xl xl:text-4xl font-bold flex gap-2">
-        Services
-        <span className="h-3 w-3 bg-orange-500 rounded-full inline-block"></span>
-      </h1>
+    <section className="flex flex-col justify-center items-center  mt-20 md:mt-28 lg:mt-32 xl:mt-36 gap-16 sm:gap-20 md:gap-24 lg:gap-28 xl:gap-32 mb-20">
+      <Heading text="Services" />
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 w-4/5 mx-auto">
         {serviceData.map((service, index) => (
           <ServiceCard

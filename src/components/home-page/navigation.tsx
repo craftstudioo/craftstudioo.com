@@ -13,7 +13,7 @@ const TopNav = () => {
           height={40}
           className="sm:w-30 sm:h-30"
         />
-        <div className="hidden md:block">
+        <div className="hidden md:block absolute top-15 left-1/2 transform -translate-x-1/2">
           <div
             className="p-[0.5px] rounded-full"
             style={{ background: "linear-gradient(170deg, #888, #111)" }}
