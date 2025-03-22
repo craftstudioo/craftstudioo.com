@@ -23,9 +23,9 @@ const TopNav = () => {
               style={{ backgroundColor: "#111" }}
             >
               <a href="#hero">Home</a>
-              <a href="#">Work</a>
               <a href="#services">Service</a>
               <a href="#team">Team</a>
+              <a href="#">About</a>
             </div>
           </div>
         </div>
