@@ -1,3 +1,5 @@
+"use client";
+import Marquee from "react-fast-marquee";
 import { Heading } from "../base";
 
 const BrandsList = () => {
@@ -17,16 +19,23 @@ const BrandsList = () => {
       id="brand-list"
     >
       <Heading text="Brands we have worked with" />
-      <div className="flex flex-wrap gap-12 sm:gap-14 md:gap-16 lg:gap-18 xl:gap-20 justify-center">
+      <Marquee
+        gradient={true}
+        gradientColor="#0a0a0a"
+        gradientWidth={
+          typeof window !== "undefined" && window.innerWidth < 640 ? 0 : 250
+        }
+        speed={100}
+      >
         {brandLogos.map((logo, index) => (
           <img
             key={index}
             src={`/brands/${logo}`}
             alt={`Brand ${index + 1}`}
-            className="h-6 sm:h-10 md:h-12 lg:h-12 xl:h-12"
+            className="h-6 sm:h-10 md:h-12 lg:h-12 xl:h-12  mr-12 sm:mr-14 md:mr-16 lg:mr-18 xl:mr-20"
           />
         ))}
-      </div>
+      </Marquee>
     </section>
   );
 };
