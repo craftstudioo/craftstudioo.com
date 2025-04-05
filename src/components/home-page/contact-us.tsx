@@ -9,9 +9,7 @@ const ContactUs = () => {
       <div className="flex flex-col lg:flex-row w-full justify-between">
         <div className="w-full lg:w-[69%] p-6 sm:p-12 md:p-16 lg:p-24 flex flex-col gap-8 sm:gap-12 md:gap-16 lg:gap-24">
           <div>
-            <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-left">
-              CONTACT US !
-            </h2>
+            <h2 className="text-4xl font-bold text-left">CONTACT US !</h2>
             <div className="text-base sm:text-lg">
               Send us your requirements and talk to us
             </div>
