@@ -1,28 +1,69 @@
+import { PrimaryButton } from "../base/button";
+
 const ContactUs = () => {
   return (
     <section
-      className="flex flex-col justify-center items-center mt-20 md:mt-28 lg:mt-32 xl:mt-36 py-20 sm:py-30 md:py-40 lg:py-54 xl:py-60 px-4 sm:px-8 md:px-16 lg:px-32 xl:px-80 gap-10"
-      style={{
-        backgroundImage: "url(/fractal_effect.png)",
-        backgroundSize: "cover",
-        backgroundPosition: "center",
-      }}
+      className="flex flex-col justify-center items-center mt-20 md:mt-28 lg:mt-32 xl:mt-36 gap-16 sm:gap-20 md:gap-24 lg:gap-28 xl:gap-32 mb-16"
       id="contact-us"
     >
-      <h2 className="text-2xl sm:text-3xl md:text-4xl font-medium text-center">
-        {"Let's turn ideas into impact, Partner with us and make it happen! "}
-      </h2>
+      <div className="flex w-full justify-between">
+        <div className="w-[65%] p-24 flex flex-col gap-24">
+          <div>
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-left">
+              CONTACT US !
+            </h2>
+            <div className="text-lg">
+              Send us your requirements and talk to us
+            </div>
+          </div>
 
-      <div className="relative mt-4 w-full sm:w-[80vw] md:w-[60vw] lg:w-[50vw] xl:w-[40vw] flex flex-col">
-        <div className="flex items-center w-full bg-transparent border border-zinc-600 rounded-full backdrop-blur-md">
-          <input
-            type="text"
-            placeholder="Enter your email address"
-            className="w-4/5 py-2 sm:py-2 md:py-3 lg:py-4 xl:py-4 pl-4 bg-transparent focus:outline-none rounded-l-full"
-          />
-          <button className="w-32 mr-1 px-4 py-1 sm:py-1 md:py-2 lg:py-3 xl:py-3 text-white bg-[#E67919] rounded-full ml-auto">
-            Contact Us
-          </button>
+          <div className=" flex flex-col gap-10">
+            <div>
+              <h3 className="text-lg font-medium text-white mb-2">
+                Company / Business
+              </h3>
+              <input
+                type="text"
+                placeholder=""
+                className="w-full py-2 bg-transparent border-b border-white text-white placeholder-white focus:outline-none"
+              />
+            </div>
+            <div className="flex w-full gap-10">
+              <div className="w-full">
+                <h3 className="text-lg font-medium text-white mb-2">Email</h3>
+                <input
+                  type="text"
+                  placeholder=""
+                  className="w-full py-2 bg-transparent border-b border-white text-white placeholder-white focus:outline-none"
+                />
+              </div>
+              <div className="w-full">
+                <h3 className="text-lg font-medium text-white mb-2">
+                  Phone Number
+                </h3>
+                <input
+                  type="text"
+                  placeholder=""
+                  className="w-full py-2 bg-transparent border-b border-white text-white placeholder-white focus:outline-none"
+                />
+              </div>
+            </div>
+            <div>
+              <h3 className="text-lg font-medium text-white mb-2">Message</h3>
+              <input
+                type="text"
+                placeholder=""
+                className="w-full py-2 bg-transparent border-b border-white text-white placeholder-white focus:outline-none"
+              />
+            </div>
+          </div>
+
+          <PrimaryButton className="self-end font-bold">
+            Send Message
+          </PrimaryButton>
+        </div>
+        <div className="hidden sm:block">
+          <img src="/fractal.png" alt="Fractal" className="object-contain" />
         </div>
       </div>
     </section>
