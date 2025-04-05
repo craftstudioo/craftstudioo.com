@@ -62,7 +62,7 @@ const ContactUs = () => {
             </div>
           </div>
 
-          <PrimaryButton className="self-end font-bold">
+          <PrimaryButton className="self-center lg:self-end font-bold">
             Send Message
           </PrimaryButton>
         </div>
