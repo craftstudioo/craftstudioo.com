@@ -8,6 +8,7 @@ import {
 import { ContactUs } from "@/components/home-page/contact-us";
 import { FAQs } from "@/components/home-page/faqs";
 import { Footer } from "@/components/home-page/footer";
+import Strategy from "@/components/home-page/strategy";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <HeroSection />
       <BrandsList />
       <Services />
+      <Strategy />
       <Team />
       <ContactUs />
       <FAQs />
