@@ -1,5 +1,7 @@
+/* eslint-disable react/jsx-no-undef */
 import React from "react";
 import { Heading } from "../base";
+import Image from "next/image";
 
 // Start of Selection
 interface ServiceCardProps {
@@ -23,8 +25,20 @@ const ServiceCard: React.FC<ServiceCardProps> = ({
         alt={altText}
         className="w-full h-3/4 object-cover rounded-t-lg"
       />
-      <div className="flex flex-col items-center justify-center h-1/4">
-        <h2 className="text-4xl font-medium">{title}</h2>
+      <div className="flex flex-row items-center justify-center h-1/4 p-2">
+        <h2 className="text-2xl sm:text-lg md:text-xl lg:text-2xl xl:text-3xl font-bold">
+          {title}
+        </h2>
+        <span className="ml-2">
+          <Image
+            src="/red_arrow.svg"
+            alt="Arrow Icon"
+            width={20}
+            height={24}
+            className="w-5 h-6"
+            style={{ transform: "rotate(41deg)" }}
+          />
+        </span>
       </div>
     </div>
   );
